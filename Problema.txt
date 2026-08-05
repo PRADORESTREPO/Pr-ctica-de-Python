@@ -1,0 +1,39 @@
+Ejercicio 1 
+
+1.Decir el precio general de la boleta y con el descuento de estudiante
+2.Preguntar si el cliente es estudiante
+3.Si el cliente es estudiante:
+        Calcular el precio de la boleta con descuento del 20% = 8000 * 0.20
+        Mostrar un mensaje que diga "El precio de tu boleta como estudiante es de:"
+  Si no:
+        precio boleta general = 8000
+4.Mostrar el precio final con mensaje de "Su boleta como cliente general es a:"     
+
+Ejercicio 2 
+
+1.Informar sobre el premio
+2.Pedir al cliente que digite cuantos productor compro
+3.Si el cliente compro 5 o mas productos
+            Mostrar mensaje que diga = "Ganaste un premio por tus compras" 
+
+  Si no:
+            Mostrar mensaje que diga = "No ganaste, vuelve a intentarlo para la proxima"
+
+Ejercicio 3
+
+1.Pedir que si el usuario quiere ver el significado del color del semaforo
+2.Pedir al usuario que color tiene el semaforo
+3.Si el semaforo esta en rojo
+            Mostrar un mensaje que diga "Los vehiculos deben parar"
+  Si el semaforo esta en amarillo
+            Mostrar un mensaje que diga "Los vehiculos deben ir despacio"
+  Si el semaforo esta en verde 
+            Mostrar un mensaje que diga "Los vehiculos deben avanzar"     
+4.Preguntar que si el usuario quiere reutilizar el programa
+      Si dice que si:
+            reutilizar el sistema
+      
+      si no: 
+            Mostrar mensaje de "Gracias por usar el sistema"
+
+
