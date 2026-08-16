@@ -157,7 +157,7 @@ print(combinada)
 print("==============EJERCICIO 10==================")
 con_duplicados = [1, 2, 3, 2, 4, 5, 1, 6]
 
-for repe in con_duplicados:
+
     
     
     
