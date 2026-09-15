@@ -9,16 +9,16 @@
 # --------------------------------------------
 
 #Crea una variable la cual esta designada como "notas" y la asignacion son unos corchetes que significan que es una lista
-notas = []
+# notas = []
 
-#Pide al usuario que ingrese una nota
-nota1 = float(input("Ingresa una nota: "))
+# #Pide al usuario que ingrese una nota
+# nota1 = float(input("Ingresa una nota: "))
 
-#La nota que haya ingresado el usuario pasara y se agregara al fondo de la lista
-notas.append(nota1)
+# #La nota que haya ingresado el usuario pasara y se agregara al fondo de la lista
+# notas.append(nota1)
 
-#Imprime todas las notas que se agregaron a la lista designada como "notas"
-print(f"Total de notas: {notas}")
+# #Imprime todas las notas que se agregaron a la lista designada como "notas"
+# print(f"Total de notas: {notas}")
 
 
 # --------------------------------------------

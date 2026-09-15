@@ -130,9 +130,9 @@ print(impares)
 print("==============EJERCICIO 8==================")
 
 orden_original = ["a", "b", "c", "d", "e"]
-
+orden_principal = ["a", "b", "c", "d", "e"]
 orden_original.reverse()
-
+print(orden_principal[::-1])
 print(orden_original)
 
 
@@ -147,46 +147,43 @@ combinada = lista_a + lista_b
 
 print(combinada)
 
-# # ============================================
-# # NIVEL AVANZADO / RETO
-# # ============================================
+# ============================================
+# NIVEL AVANZADO / RETO
+# ============================================
 
-# # Ejercicio 10: Encuentra los valores que están repetidos en 
-# # la lista "con_duplicados" (que aparezcan más de una vez)
+# Ejercicio 10: Encuentra los valores que están repetidos en 
+# la lista "con_duplicados" (que aparezcan más de una vez)
 
 print("==============EJERCICIO 10==================")
 con_duplicados = [1, 2, 3, 2, 4, 5, 1, 6]
 
+repetidos = []
+for n in con_duplicados:
+    if con_duplicados.count(n) > 1 and n not in repetidos:
+        repetidos.append(n)
 
-    
-    
-    
-    
-
-
-# # --------------------------------------------
-# # LIST COMPREHENSION (forma corta de escribir un for)
-# # --------------------------------------------
-
-# numeros = [1, 2, 3, 4, 5]
-
-# cuadrados_largo = []
-# for n in numeros:
-#     cuadrados_largo.append(n**2)
-
-# cuadrados_corto = [n**2 for n in numeros]
-
-# print(cuadrados_largo)
-# print(cuadrados_corto)
+print("Valores repetidos:", repetidos)
 
 
-# # Ejercicio 11: Usando list comprehension, crea una lista 
-# # "positivos" que contenga solo los números mayores a 0 
-# # de la lista "mixtos"
-# mixtos = [-5, 3, -2, 8, -1, 10, 0]
+# --------------------------------------------
+# LIST COMPREHENSION (forma corta de escribir un for)
+# --------------------------------------------
+
+# Ejercicio 11: Usando list comprehension, crea una lista 
+# "positivos" que contenga solo los números mayores a 0 
+# de la lista "mixtos"
+mixtos = [-5, 3, -2, 8, -1, 10, 0]
+
+positivos = [n for n in mixtos if n > 0]
+
+print("Positivos:", positivos)
 
 
-# # Ejercicio 12 (reto): Usando list comprehension, crea una 
-# # lista con el triple de cada número, pero SOLO de los 
-# # números pares de "numeros_variados"
-# numeros_variados = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# Ejercicio 12 (reto): Usando list comprehension, crea una 
+# lista con el triple de cada número, pero SOLO de los 
+# números pares de "numeros_variados"
+numeros_variados = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+triples_pares = [n * 3 for n in numeros_variados if n % 2 == 0]
+
+print("Triples de pares:", triples_pares)
