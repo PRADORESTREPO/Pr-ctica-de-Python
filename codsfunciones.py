@@ -73,7 +73,7 @@ def generar_descuento(precio, porcentaje=10):
 # APLICADO A TU PROYECTO
 # --------------------------------------------
 
-# Ejercicio 9: Opción de eliminar producto convertida en función simple
+# Ejercicio 9
 def eliminar_producto(inventario):
  
     try:
@@ -94,7 +94,7 @@ def eliminar_producto(inventario):
 
 
 
-# Ejercicio 10 (reto): Opción de buscar producto usando return
+# Ejercicio 10 
 def buscar_producto(inventario):
 
     try:
